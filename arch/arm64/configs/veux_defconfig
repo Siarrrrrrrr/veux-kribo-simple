@@ -48,6 +48,7 @@ CONFIG_ZRAM_SIZE_OVERRIDE=4
 CONFIG_SCHED_BORE=y
 #######################################
 # ksu integrated with KPROBE
+CONFIG_KSU=n
 CONFIG_KPROBES=y
 CONFIG_HAVE_KPROBES=y
 CONFIG_KPROBE_EVENTS=y
