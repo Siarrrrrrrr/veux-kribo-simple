@@ -49,6 +49,7 @@ CONFIG_SCHED_BORE=y
 #######################################
 # ksu integrated with KPROBE
 CONFIG_KSU=n
+CONFIG_MODULES=y
 CONFIG_KPROBES=y
 CONFIG_HAVE_KPROBES=y
 CONFIG_KPROBE_EVENTS=y
