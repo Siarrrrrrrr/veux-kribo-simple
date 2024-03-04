@@ -1,20 +1,28 @@
-Positron-Veux-Mod-Rais-Kribo 0.2.0
+veux-kribo-simple 0.3.1
 
 Im using Google Clang
 
 wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r498229b.tar.gz
 
-If u want use Kernelsu ad this first
+If u dont want use KSU just compile it 
+
+If u want use KSU, CHange CONFIG_KSU=y first then use this 
 
 curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
+
+or
+
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s main
 
 FOr Script Compile u can use this one
 
 https://telegra.ph/Compile-Kernel-Veux--Rais-12-12
 
-For Download Kernel U can Use This One and search kernel what u need
+If u want to download my kernel u can use this one then found anything kernel version what u need and u can read changelog and feature at my telegram channel
 
 https://t.me/MrKriboChannel
+
+
 
 
 # How do I submit patches to Android Common Kernels
