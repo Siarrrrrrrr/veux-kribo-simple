@@ -1,5 +1,8 @@
 CONFIG_LOCALVERSION="-lineageos"
 #######################################
+# config wakelock block
+CONFIG_BOEFFLA_WL_BLOCKER=y
+########################################
 # CONFIG INTERNET
 CONFIG_TCP_CONG_BBR=y
 CONFIG_TCP_CONG_BBRPLUS=y
